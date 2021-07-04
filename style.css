@@ -41,4 +41,43 @@ body{
     background:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 150px;
+}
+.exp-area{
+    background:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.exp-area h2{
+    font-size:40px;
+}
+.exp-items{
+    display:flex;
+}
+.exp-item{
+    width:40%;
+    margin:0 5%;
+    padding:0 1%;
+    margin-bottom: 150px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.exp-item h3{
+    color:orange;
+}
+.exp-item p{
+    color:dimgray;
+}
+#baby-web{
+    border-left:5px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-web{
+    border-left:5px solid;
+    border-image:linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    color:dimgray;
+    text-align: center;
 }
