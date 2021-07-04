@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+.top-banner{
+    display:flex;
+    background:url("images/top-banner.png");
+    background-repeat: no-repeat;
+    padding:0 4%;
+}
+.half-width{
+    width:50%;
+    padding:0 2%;
+}
+.half-width img{
+    width:80%;
+}
+.half-width h1{
+    font-size:50px;
+}
+.half-width .mehedi-color{
+    color:orange;
+}
+.half-width p{
+    color:dimgray;
+}
+.half-width a{
+    text-decoration: none;
+    padding:10px 40px;
+    color:white;
+    background:linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
