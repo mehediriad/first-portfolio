@@ -8,6 +8,7 @@ body{
     background:url("images/top-banner.png");
     background-repeat: no-repeat;
     padding:0 4%;
+    margin-bottom: 120px;
 }
 .half-width{
     width:50%;
@@ -33,4 +34,11 @@ body{
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
+}
+.dream-big{
+    display:flex;
+    padding:0 4% 0 0;
+    background:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
